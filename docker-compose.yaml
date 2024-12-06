@@ -6,7 +6,5 @@ services:
     restart: always
     volumes:
       - ./upstream/web1.conf:/etc/nginx/nginx.conf
-    ports:
-      - "9081:80/tcp"
     environment:
       - NGINX_PORT=80
