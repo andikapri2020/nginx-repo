@@ -10,9 +10,3 @@ services:
       - "9081:80/tcp"
     environment:
       - NGINX_PORT=80
-    networks:
-      apisix:
-
-networks:
-  apisix:
-    external: true
